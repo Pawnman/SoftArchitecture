@@ -1,0 +1,69 @@
+11:52:01.175 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Starting Socket Connection
+11:52:01.200 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - READY_TO_CONNECT
+11:52:01.208 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Launching C4LanguageServer started
+11:52:01.660 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+11:52:01.830 [main] INFO  d.s.c.ls.service.C4LanguageServer - getWorkspaceService
+11:52:01.830 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+11:52:01.860 [main] INFO  d.s.c.ls.service.C4LanguageServer - connect
+11:52:01.990 [pool-1-thread-1] INFO  d.s.c.ls.service.C4LanguageServer - initialize
+11:52:02.090 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didOpen file:///d%3A/Program%20Files/My_Desktop/GitHub/SoftArchitecture/SoftArchitecture/workspace.dsl
+11:52:02.090 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDiagnostics 0
+11:52:02.106 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.autoformat.indent
+11:52:02.110 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+11:52:02.110 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:52:02.130 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - createModel d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.130 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing...
+11:52:02.170 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 1, contextId: 857485229, contextName WorkspaceDslContext
+11:52:02.170 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.170 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 2, contextId: 250407524, contextName ModelDslContext
+11:52:02.170 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.176 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user, modelId: 1 at linenumber: workspace.dsl, 3
+11:52:02.177 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: lks, modelId: 2 at linenumber: workspace.dsl, 4
+11:52:02.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: sso, modelId: 3 at linenumber: workspace.dsl, 5
+11:52:02.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: bff, modelId: 4 at linenumber: workspace.dsl, 6
+11:52:02.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: backoffice, modelId: 5 at linenumber: workspace.dsl, 7
+11:52:02.180 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.185 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->2, identifier: null, at linenumber: workspace.dsl, 9
+11:52:02.185 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 2->3, identifier: null, at linenumber: workspace.dsl, 10
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 2->4, identifier: null, at linenumber: workspace.dsl, 11
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 2->5, identifier: null, at linenumber: workspace.dsl, 12
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 13, contextId: 250407524, contextName ModelDslContext
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 15, contextId: 1030755019, contextName ViewsDslContext
+11:52:02.220 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.231 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: landscape at linenumber workspace.dsl, 16
+11:52:02.231 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.231 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 16, contextId: 1016124623, contextName SystemLandscapeViewDslContext
+11:52:02.235 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.240 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 19, contextId: 1016124623, contextName SystemLandscapeViewDslContext
+11:52:02.240 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.250 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 22, contextId: 1030755019, contextName ViewsDslContext
+11:52:02.250 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.250 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 23, contextId: 857485229, contextName WorkspaceDslContext
+11:52:02.250 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.250 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing finished
+11:52:02.250 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setWorkspace Name
+11:52:02.250 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setValid true
+11:52:02.250 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDiagnostics
+11:52:02.250 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.250 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:52:02.250 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/d:/Program%20Files/My_Desktop/GitHub/SoftArchitecture/SoftArchitecture/workspace.dsl
+11:52:02.250 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+11:52:02.552 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+11:52:02.560 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:52:02.560 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.560 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:52:02.668 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+11:52:02.668 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+11:52:02.670 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: d:\Program Files\My_Desktop\GitHub\SoftArchitecture\SoftArchitecture\workspace.dsl
+11:52:02.670 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+11:52:02.690 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [8, 8, 4, 14, 0, 0, 8, 3, 14, 0, 1, 8, 3, 14, 0, 0, 7, 3, 14, 0, 1, 8, 3, 14, 0, 0, 7, 3, 14, 0, 1, 8, 3, 14, 0, 0, 7, 10, 14, 0]
+11:52:16.598 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Launching C4LanguageServer finished
